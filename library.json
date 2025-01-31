@@ -1,0 +1,22 @@
+{
+  "name": "KLib-EnvSensor",
+  "version": "1.0.0",
+  "description": "Library for environmental sensor readings using BME680",
+  "keywords": "sensor, bme680, environment",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KazaLab/KLib-EnvSensor.git"
+  },
+  "authors": [
+    {
+      "name": "Julien K.",
+      "email": "code@juli3n.xyz",
+      "maintainer": true
+    }
+  ],
+  "frameworks": "arduino",
+  "platforms": "espressif32",
+  "dependencies": {
+    "adafruit/Adafruit BME680 Library": "^2.0.4"
+  }
+}
